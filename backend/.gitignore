@@ -1,5 +1,5 @@
-# Build output
-/backend/backend
+# Build output — compiled binary produced by `go build`
+/backend
 
 # Test cache
-/backend/*.test
+/*.test
