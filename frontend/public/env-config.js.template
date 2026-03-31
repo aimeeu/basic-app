@@ -1,0 +1,6 @@
+// Template file used by docker-entrypoint.sh at container startup.
+// envsubst replaces ${BACKEND_API_URL} with the value of the environment
+// variable and writes the result to /usr/share/nginx/html/env-config.js.
+window.__ENV = {
+  BACKEND_API_URL: "${BACKEND_API_URL}"
+};
